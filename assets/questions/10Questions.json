@@ -1,0 +1,224 @@
+{
+"questions":[
+    {
+        "frage": "Was ist die Hauptstadt von Deutschland?",
+        "antworten": [
+            "a) Berlin",
+            "b) München",
+            "c) Hamburg"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "extractedText": "Hier kommt der Text, der analysiert wurde.",
+        "extractedPage": "Seite 1",
+        "extractedSession": "Sitzung 1",
+        "extractedPro": "Prof. Dr. Beispiel",
+        "extractedLecture": "Einführung in die Programmierung",
+        "ectractLectureName": "Vorlesung 1"
+    },
+    {
+        "frage": "Welche Farben hat die deutsche Flagge?",
+        "antworten": [
+            "a) Schwarz",
+            "b) Rot",
+            "c) Blau",
+            "d) Gelb"
+        ],
+        "correctAnswers": [
+            0,
+            1,
+            3
+        ],
+        "extractedText": "Ein weiterer Text für die Erstellung von Fragen.",
+        "extractedPage": "Seite 2",
+        "extractedSession": "Sitzung 2",
+        "extractedPro": "Prof. Dr. Beispiel",
+        "extractedLecture": "Einführung in die Programmierung",
+        "ectractLectureName": "Vorlesung 2"
+    },
+    {
+        "frage": "Was ist das Grundprinzip der Mehrheitsdemokratie?",
+        "antworten": [
+            "a) Herrschaft von so vielen wie möglich",
+            "b) Konzentration von Macht",
+            "c) Inklusion",
+            "d) Aufteilung von Macht",
+            "e) Alternanz"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts typologischer Ansatz: Die Unterscheidung von \nMehrheits- und Konsensdemokratien\nMehrheitsdemokratie\n§ Grundprinzip: \nMehrheitsherrschaft und \nregelmäßiger Wechsel der Macht \nzwischen Gruppen\n§ Konzentration von Macht\n§ Alternanz \n§ Voraussetzung: \nHomogene Gesellschaft\n§ Alternativbezeichnungen \n§ Westministerdemokratie\n§ Konkurrenzdemokratie\n§ Beispiele: UK, NZL (vor 1996)\nKonsensdemokratie\n§ Grundprinzip: \nHerrschaft von so vielen wie \nmöglich und kein Wechsel \nzwischen Gruppen\n§ Aufteilung von Macht\n§ Inklusion\n§ Voraussetzung: \nHeterogene Gesellschaft\n§ Alternativbezeichnungen\n§ Verhandlungsdemokratien\n§ Konkordanzdemokratien\n§ Beispiele: CH, BEL, D\n\n\n",
+        "extractedPage": "Seite 10",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Länder ist ein Beispiel für eine Konsensdemokratie?",
+        "antworten": [
+            "a) UK",
+            "b) Neuseeland vor 1996",
+            "c) Belgien",
+            "d) Australien",
+            "e) Deutschland"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts typologischer Ansatz: Die Unterscheidung von \nMehrheits- und Konsensdemokratien\nMehrheitsdemokratie\n§ Grundprinzip: \nMehrheitsherrschaft und \nregelmäßiger Wechsel der Macht \nzwischen Gruppen\n§ Konzentration von Macht\n§ Alternanz \n§ Voraussetzung: \nHomogene Gesellschaft\n§ Alternativbezeichnungen \n§ Westministerdemokratie\n§ Konkurrenzdemokratie\n§ Beispiele: UK, NZL (vor 1996)\nKonsensdemokratie\n§ Grundprinzip: \nHerrschaft von so vielen wie \nmöglich und kein Wechsel \nzwischen Gruppen\n§ Aufteilung von Macht\n§ Inklusion\n§ Voraussetzung: \nHeterogene Gesellschaft\n§ Alternativbezeichnungen\n§ Verhandlungsdemokratien\n§ Konkordanzdemokratien\n§ Beispiele: CH, BEL, D\n\n\n",
+        "extractedPage": "Seite 10",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Was ist ein wesentliches Merkmal der Konsensdemokratie?",
+        "antworten": [
+            "a) Mehrheitsherrschaft",
+            "b) Verhandlungsdemokratie",
+            "c) Homogene Gesellschaft",
+            "d) Regelmäßiger Machtwechsel",
+            "e) Konzentration von Macht"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts typologischer Ansatz: Die Unterscheidung von \nMehrheits- und Konsensdemokratien\nMehrheitsdemokratie\n§ Grundprinzip: \nMehrheitsherrschaft und \nregelmäßiger Wechsel der Macht \nzwischen Gruppen\n§ Konzentration von Macht\n§ Alternanz \n§ Voraussetzung: \nHomogene Gesellschaft\n§ Alternativbezeichnungen \n§ Westministerdemokratie\n§ Konkurrenzdemokratie\n§ Beispiele: UK, NZL (vor 1996)\nKonsensdemokratie\n§ Grundprinzip: \nHerrschaft von so vielen wie \nmöglich und kein Wechsel \nzwischen Gruppen\n§ Aufteilung von Macht\n§ Inklusion\n§ Voraussetzung: \nHeterogene Gesellschaft\n§ Alternativbezeichnungen\n§ Verhandlungsdemokratien\n§ Konkordanzdemokratien\n§ Beispiele: CH, BEL, D\n\n\n",
+        "extractedPage": "Seite 10",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Merkmale sind typisch für eine Konsensdemokratie? (Wählen Sie alle zutreffenden Optionen)",
+        "antworten": [
+            
+            "a) Inklusion",
+            "b) Konzentration von Macht",
+            "c) Heterogene Gesellschaft",
+            "d) Alternanz",
+            "e) Aufteilung von Macht"
+        ],
+        "correctAnswers": [
+            0,
+            2,
+            4
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "MULTIPLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nLijpharts typologischer Ansatz: Die Unterscheidung von \nMehrheits- und Konsensdemokratien\nMehrheitsdemokratie\n§ Grundprinzip: \nMehrheitsherrschaft und \nregelmäßiger Wechsel der Macht \nzwischen Gruppen\n§ Konzentration von Macht\n§ Alternanz \n§ Voraussetzung: \nHomogene Gesellschaft\n§ Alternativbezeichnungen \n§ Westministerdemokratie\n§ Konkurrenzdemokratie\n§ Beispiele: UK, NZL (vor 1996)\nKonsensdemokratie\n§ Grundprinzip: \nHerrschaft von so vielen wie \nmöglich und kein Wechsel \nzwischen Gruppen\n§ Aufteilung von Macht\n§ Inklusion\n§ Voraussetzung: \nHeterogene Gesellschaft\n§ Alternativbezeichnungen\n§ Verhandlungsdemokratien\n§ Konkordanzdemokratien\n§ Beispiele: CH, BEL, D\n\n\n",
+        "extractedPage": "Seite 10",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Alternativbezeichnung gehört nicht zur Mehrheitsdemokratie?",
+        "antworten": [
+            "a) Westministerdemokratie",
+            "b) Verhandlungsdemokratie",
+            "c) Konkurrenzdemokratie",
+            "d) Alternanz",
+            "e) Konzentration von Macht"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts typologischer Ansatz: Die Unterscheidung von \nMehrheits- und Konsensdemokratien\nMehrheitsdemokratie\n§ Grundprinzip: \nMehrheitsherrschaft und \nregelmäßiger Wechsel der Macht \nzwischen Gruppen\n§ Konzentration von Macht\n§ Alternanz \n§ Voraussetzung: \nHomogene Gesellschaft\n§ Alternativbezeichnungen \n§ Westministerdemokratie\n§ Konkurrenzdemokratie\n§ Beispiele: UK, NZL (vor 1996)\nKonsensdemokratie\n§ Grundprinzip: \nHerrschaft von so vielen wie \nmöglich und kein Wechsel \nzwischen Gruppen\n§ Aufteilung von Macht\n§ Inklusion\n§ Voraussetzung: \nHeterogene Gesellschaft\n§ Alternativbezeichnungen\n§ Verhandlungsdemokratien\n§ Konkordanzdemokratien\n§ Beispiele: CH, BEL, D\n\n\n",
+        "extractedPage": "Seite 10",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Aussagen sind wahr im Kontext von Mehrheitsdemokratien? (Wählen Sie alle zutreffenden Optionen)",
+        "antworten": [
+            
+            "a) Machtdifferenzierung ist positiv",
+            "b) Regelmäßiger Wechsel der Macht ist ein Merkmal",
+            "c) Homogene Gesellschaft ist eine Voraussetzung",
+            "d) Alle Gruppen haben eine Stimme",
+            "e) Machtkonzentration ist vorhanden"
+        ],
+        "correctAnswers": [
+            1,
+            2,
+            4
+        ],
+        "schwierigkeit": "Unbekannt",
+        "fragetyp": "Unbekannt",
+        "zeitaufwand": "Unbekannt",
+        "extractedText": "\nLijpharts typologischer Ansatz: Die Unterscheidung von \nMehrheits- und Konsensdemokratien\nMehrheitsdemokratie\n§ Grundprinzip: \nMehrheitsherrschaft und \nregelmäßiger Wechsel der Macht \nzwischen Gruppen\n§ Konzentration von Macht\n§ Alternanz \n§ Voraussetzung: \nHomogene Gesellschaft\n§ Alternativbezeichnungen \n§ Westministerdemokratie\n§ Konkurrenzdemokratie\n§ Beispiele: UK, NZL (vor 1996)\nKonsensdemokratie\n§ Grundprinzip: \nHerrschaft von so vielen wie \nmöglich und kein Wechsel \nzwischen Gruppen\n§ Aufteilung von Macht\n§ Inklusion\n§ Voraussetzung: \nHeterogene Gesellschaft\n§ Alternativbezeichnungen\n§ Verhandlungsdemokratien\n§ Konkordanzdemokratien\n§ Beispiele: CH, BEL, D\n\n\n",
+        "extractedPage": "Seite 10",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Was lässt sich laut Lijphart graduell messen?",
+        "antworten": [
+            "a) Die Stabilität von politischen Systemen",
+            "b) Das Ausmaß von Mehrheits- und Konsensorientierung",
+            "c) Die Anzahl der Wählerstimmen",
+            "d) Die Größe des Parlamentes",
+            "e) Die Wirtschaftskraft eines Landes"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts Idee und Strategie (1)\n§ Ursprüngliche Idee\n§ Das Ausmaß von Mehrheits- und Konsensorientierung in politischen \nSystemen lässt sich graduell messen \n§ Es gibt verschiedene Variablen, die aber alle denselben unterliegenden \n(latenten, und somit nicht direkt messbaren) Charakter einer Demokratie \nentlang eines Konsens-Mehrheits-Kontinuums widerspiegeln\n\nMehrheitsorientierung\nKonsensorientierung\n\n",
+        "extractedPage": "Seite 11",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Orientierung steht im Gegensatz zur Mehrheitsorientierung?",
+        "antworten": [
+            "a) Diktatorische Orientierung",
+            "b) Pluralistische Orientierung",
+            "c) Konsensorientierung",
+            "d) Autokratische Orientierung",
+            "e) Usus orientierte Politik"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts Idee und Strategie (1)\n§ Ursprüngliche Idee\n§ Das Ausmaß von Mehrheits- und Konsensorientierung in politischen \nSystemen lässt sich graduell messen \n§ Es gibt verschiedene Variablen, die aber alle denselben unterliegenden \n(latenten, und somit nicht direkt messbaren) Charakter einer Demokratie \nentlang eines Konsens-Mehrheits-Kontinuums widerspiegeln\n\nMehrheitsorientierung\nKonsensorientierung\n\n",
+        "extractedPage": "Seite 11",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    }
+
+
+]}

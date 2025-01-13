@@ -1,0 +1,463 @@
+
+[
+    {
+        "frage": "Welche der folgenden Variablen wird im Kontext der politischen Systeme nicht erwähnt?",
+        "antworten": [
+            "a)) Gesetzgebung",
+            "b)) Soziale Gerechtigkeit",
+            "c)) Unterliegende Demokratie",
+            "d)) Konsens",
+            "e)) Staatsausgaben"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nLijpharts Idee und Strategie (1)\n§ Ursprüngliche Idee\n§ Das Ausmaß von Mehrheits- und Konsensorientierung in politischen \nSystemen lässt sich graduell messen \n§ Es gibt verschiedene Variablen, die aber alle denselben unterliegenden \n(latenten, und somit nicht direkt messbaren) Charakter einer Demokratie \nentlang eines Konsens-Mehrheits-Kontinuums widerspiegeln\n\nMehrheitsorientierung\nKonsensorientierung\n\n",
+        "extractedPage": "Seite 11",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Variablen könnten in einer Analyse der Mehrheits- und Konsensorientierung berücksichtigt werden? (mehrere Antworten möglich)",
+        "antworten": [
+            "h)) ",
+            "a)) Wahlbeteiligung",
+            "b)) Parteienlandschaft",
+            "c)) Verfassungstexte",
+            "d)) Öffentliche Meinung",
+            "e)) Politische Kultur"
+        ],
+        "correctAnswers": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "schwierigkeit": "Unbekannt",
+        "fragetyp": "Unbekannt",
+        "zeitaufwand": "Unbekannt",
+        "extractedText": "\nLijpharts Idee und Strategie (1)\n§ Ursprüngliche Idee\n§ Das Ausmaß von Mehrheits- und Konsensorientierung in politischen \nSystemen lässt sich graduell messen \n§ Es gibt verschiedene Variablen, die aber alle denselben unterliegenden \n(latenten, und somit nicht direkt messbaren) Charakter einer Demokratie \nentlang eines Konsens-Mehrheits-Kontinuums widerspiegeln\n\nMehrheitsorientierung\nKonsensorientierung\n\n",
+        "extractedPage": "Seite 11",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Konzepte bilden laut Lijphart ein Kontinuum in politischen Systemen? (mehrere Antworten möglich)",
+        "antworten": [
+            "h)) ",
+            "a)) Diktatur und Demokratie",
+            "b)) Konsens und Mehrheit",
+            "c)) Progression und Regression",
+            "d)) Freiheit und Kontrolle",
+            "e)) Stabilität und Instabilität"
+        ],
+        "correctAnswers": [
+            1,
+            2
+        ],
+        "schwierigkeit": "Unbekannt",
+        "fragetyp": "Unbekannt",
+        "zeitaufwand": "Unbekannt",
+        "extractedText": "\nLijpharts Idee und Strategie (1)\n§ Ursprüngliche Idee\n§ Das Ausmaß von Mehrheits- und Konsensorientierung in politischen \nSystemen lässt sich graduell messen \n§ Es gibt verschiedene Variablen, die aber alle denselben unterliegenden \n(latenten, und somit nicht direkt messbaren) Charakter einer Demokratie \nentlang eines Konsens-Mehrheits-Kontinuums widerspiegeln\n\nMehrheitsorientierung\nKonsensorientierung\n\n",
+        "extractedPage": "Seite 11",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Aussage beschreibt den Charakter einer Demokratie in Lijpharts Analyse?",
+        "antworten": [
+            "a)) Er ist direkt messbar.",
+            "b)) Er ist konstant und unveränderlich.",
+            "c)) Er hat latente Aspekte, die nicht direkt messbar sind.",
+            "d)) Er basiert ausschließlich auf der Mehrheitswahl.",
+            "e)) Er wird durch wirtschaftliche Faktoren bestimmt."
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nLijpharts Idee und Strategie (1)\n§ Ursprüngliche Idee\n§ Das Ausmaß von Mehrheits- und Konsensorientierung in politischen \nSystemen lässt sich graduell messen \n§ Es gibt verschiedene Variablen, die aber alle denselben unterliegenden \n(latenten, und somit nicht direkt messbaren) Charakter einer Demokratie \nentlang eines Konsens-Mehrheits-Kontinuums widerspiegeln\n\nMehrheitsorientierung\nKonsensorientierung\n\n",
+        "extractedPage": "Seite 11",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Art von Demokratien illustriert Lijphart an den Extrembeispielen?",
+        "antworten": [
+            "a)) Einheitsdemokratien",
+            "b)) Mehrheits- und Konsensdemokratien",
+            "c)) Autoritäre Regime",
+            "d)) Diktaturen",
+            "e)) Monarchien"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts Fallauswahl und Wertezuordnung\n§ Er wählt Länder aus, die hinreichend lange demokratisch waren \n§ Er definiert 10 Variablen und illustriert an den Extrembeispielen \nihre unterschiedlichen Ausprägungsmöglichkeiten\n§ An diesen zeigt er die Idealtypen von Mehrheits- und \nKonsensdemokratie empirisch auf\n§ Er bestimmt für jede dieser Variablen die Werte aller 21 bzw. 36 \nLänder\n\n\n",
+        "extractedPage": "Seite 13",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Wie viele Länder hat Lijphart für seine Analyse in Bezug auf die 10 Variablen untersucht?",
+        "antworten": [
+            "a)) 21",
+            "b)) 36",
+            "c)) 50",
+            "d)) 15",
+            "e)) 40"
+        ],
+        "correctAnswers": [
+            0,
+            1
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijpharts Fallauswahl und Wertezuordnung\n§ Er wählt Länder aus, die hinreichend lange demokratisch waren \n§ Er definiert 10 Variablen und illustriert an den Extrembeispielen \nihre unterschiedlichen Ausprägungsmöglichkeiten\n§ An diesen zeigt er die Idealtypen von Mehrheits- und \nKonsensdemokratie empirisch auf\n§ Er bestimmt für jede dieser Variablen die Werte aller 21 bzw. 36 \nLänder\n\n\n",
+        "extractedPage": "Seite 13",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der following Variablen stellt Lijphart nicht in seiner Analyse vor?",
+        "antworten": [
+            "a)) Wahlrecht",
+            "b)) Verfassung",
+            "c)) Politische Kultur",
+            "d)) Wirtschaftliche Entwicklung",
+            "e)) Gerichtswesen"
+        ],
+        "correctAnswers": [
+            4
+        ],
+        "schwierigkeit": "SCHWER",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nLijpharts Fallauswahl und Wertezuordnung\n§ Er wählt Länder aus, die hinreichend lange demokratisch waren \n§ Er definiert 10 Variablen und illustriert an den Extrembeispielen \nihre unterschiedlichen Ausprägungsmöglichkeiten\n§ An diesen zeigt er die Idealtypen von Mehrheits- und \nKonsensdemokratie empirisch auf\n§ Er bestimmt für jede dieser Variablen die Werte aller 21 bzw. 36 \nLänder\n\n\n",
+        "extractedPage": "Seite 13",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Länder sind Teil von Lijpharts Analyse? (Mehrere Antworten möglich)",
+        "antworten": [
+            "h)) ",
+            "a)) USA",
+            "b)) Schweden",
+            "c)) Deutschland",
+            "d)) Nordkorea",
+            "e)) Kanada"
+        ],
+        "correctAnswers": [
+            1,
+            2,
+            4
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "MULTIPLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nLijpharts Fallauswahl und Wertezuordnung\n§ Er wählt Länder aus, die hinreichend lange demokratisch waren \n§ Er definiert 10 Variablen und illustriert an den Extrembeispielen \nihre unterschiedlichen Ausprägungsmöglichkeiten\n§ An diesen zeigt er die Idealtypen von Mehrheits- und \nKonsensdemokratie empirisch auf\n§ Er bestimmt für jede dieser Variablen die Werte aller 21 bzw. 36 \nLänder\n\n\n",
+        "extractedPage": "Seite 13",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Variablen können laut Lijphart für die Analyse von Demokratievarianten bewertet werden? (Mehrere Antworten möglich)",
+        "antworten": [
+            "h)) ",
+            "a)) Teilnahme an Wahlen",
+            "b)) Machtverteilung",
+            "c)) Freiheit der Presse",
+            "d)) Herkunft des Staatsoberhauptes",
+            "e)) Bildungssystem"
+        ],
+        "correctAnswers": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "MULTIPLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nLijpharts Fallauswahl und Wertezuordnung\n§ Er wählt Länder aus, die hinreichend lange demokratisch waren \n§ Er definiert 10 Variablen und illustriert an den Extrembeispielen \nihre unterschiedlichen Ausprägungsmöglichkeiten\n§ An diesen zeigt er die Idealtypen von Mehrheits- und \nKonsensdemokratie empirisch auf\n§ Er bestimmt für jede dieser Variablen die Werte aller 21 bzw. 36 \nLänder\n\n\n",
+        "extractedPage": "Seite 13",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Aussagen trifft auf Lijpharts Fallauswahl zu? (Mehrere Antworten möglich)",
+        "antworten": [
+            "h)) ",
+            "a)) Er analysiert Länder mit weniger als 10 Jahren Demokratie",
+            "b)) Er beschreibt die Werte von 21 oder 36 Ländern",
+            "c)) Er betrachtet nur eine Dimension der Demokratie",
+            "d)) Er verwendet Extreme zur Veranschaulichung von Demokratietypen",
+            "e)) Er konzentriert sich ausschließlich auf Mehrheitsdemokratien"
+        ],
+        "correctAnswers": [
+            1,
+            4
+        ],
+        "schwierigkeit": "Unbekannt",
+        "fragetyp": "Unbekannt",
+        "zeitaufwand": "Unbekannt",
+        "extractedText": "\nLijpharts Fallauswahl und Wertezuordnung\n§ Er wählt Länder aus, die hinreichend lange demokratisch waren \n§ Er definiert 10 Variablen und illustriert an den Extrembeispielen \nihre unterschiedlichen Ausprägungsmöglichkeiten\n§ An diesen zeigt er die Idealtypen von Mehrheits- und \nKonsensdemokratie empirisch auf\n§ Er bestimmt für jede dieser Variablen die Werte aller 21 bzw. 36 \nLänder\n\n\n",
+        "extractedPage": "Seite 13",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Art von Regierung wird in einer Konsensdemokratie häufig eingesetzt?",
+        "antworten": [
+            "a)) Einparteienkabinette",
+            "b)) Koalitionsregierungen",
+            "c)) Monarchien",
+            "d)) Diktaturen",
+            "e)) Militärregierungen"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijphart nutzt 10 Variablen, um den Charakter von \nMehrheits- und Konsensdemokratie zu erfassen\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nZweite Dimension: \nVertikale Machtteilung\n6.\nUnitarisch-zentralisiert vs. \nFöderal-dezentralisiert\n7.\nUnikameralismus vs. \nBikameralismus\n8.\nFlexible vs. Rigide Verfassungen\n9.\nKeine Normenkontrolle vs. \nNormenkontrolle durch \nVerfassungsgericht\n10. Abhängige vs. Unabhängige \nZentralbank\n\n\n",
+        "extractedPage": "Seite 14",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Variablen beschreibt die horizontale Machtteilung?",
+        "antworten": [
+            "a)) Unitarisch-zentralisiert vs. Föderal-dezentralisiert",
+            "b)) Flexible vs. Rigide Verfassungen",
+            "c)) Exekutivdominanz vs. dominante Legislative",
+            "d)) Unikameralismus vs. Bikameralismus",
+            "e)) Abhängige vs. Unabhängige Zentralbank"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijphart nutzt 10 Variablen, um den Charakter von \nMehrheits- und Konsensdemokratie zu erfassen\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nZweite Dimension: \nVertikale Machtteilung\n6.\nUnitarisch-zentralisiert vs. \nFöderal-dezentralisiert\n7.\nUnikameralismus vs. \nBikameralismus\n8.\nFlexible vs. Rigide Verfassungen\n9.\nKeine Normenkontrolle vs. \nNormenkontrolle durch \nVerfassungsgericht\n10. Abhängige vs. Unabhängige \nZentralbank\n\n\n",
+        "extractedPage": "Seite 14",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Was ist eine der Dimensionen, die Lijphart zur Analyse von Demokratien verwendet?",
+        "antworten": [
+            "a)) Ökonomische Machtteilung",
+            "b)) Horizontale Machtteilung",
+            "c)) Geografische Machtteilung",
+            "d)) Kulturelle Machtteilung",
+            "e)) Soziale Machtteilung"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijphart nutzt 10 Variablen, um den Charakter von \nMehrheits- und Konsensdemokratie zu erfassen\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nZweite Dimension: \nVertikale Machtteilung\n6.\nUnitarisch-zentralisiert vs. \nFöderal-dezentralisiert\n7.\nUnikameralismus vs. \nBikameralismus\n8.\nFlexible vs. Rigide Verfassungen\n9.\nKeine Normenkontrolle vs. \nNormenkontrolle durch \nVerfassungsgericht\n10. Abhängige vs. Unabhängige \nZentralbank\n\n\n",
+        "extractedPage": "Seite 14",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Optionen gehört zur vertikalen Machtteilung?",
+        "antworten": [
+            "a)) Pluralistische Interessenvertretung",
+            "b)) Bikameralismus",
+            "c)) Mehrheitswahlrecht",
+            "d)) Einparteienregierung",
+            "e)) Koalition aus mehreren Parteien"
+        ],
+        "correctAnswers": [
+            1,
+            2
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "MULTIPLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nLijphart nutzt 10 Variablen, um den Charakter von \nMehrheits- und Konsensdemokratie zu erfassen\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nZweite Dimension: \nVertikale Machtteilung\n6.\nUnitarisch-zentralisiert vs. \nFöderal-dezentralisiert\n7.\nUnikameralismus vs. \nBikameralismus\n8.\nFlexible vs. Rigide Verfassungen\n9.\nKeine Normenkontrolle vs. \nNormenkontrolle durch \nVerfassungsgericht\n10. Abhängige vs. Unabhängige \nZentralbank\n\n\n",
+        "extractedPage": "Seite 14",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Variablen beschreibt ein System mit einem starken Einfluss auf die Exekutive?",
+        "antworten": [
+            "a)) Unikameralismus",
+            "b)) Exekutivdominanz",
+            "c)) Normenkontrolle durch Verfassungsgericht",
+            "d)) Föderal-dezentralisiert",
+            "e)) Mehrparteiensystem"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nLijphart nutzt 10 Variablen, um den Charakter von \nMehrheits- und Konsensdemokratie zu erfassen\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nZweite Dimension: \nVertikale Machtteilung\n6.\nUnitarisch-zentralisiert vs. \nFöderal-dezentralisiert\n7.\nUnikameralismus vs. \nBikameralismus\n8.\nFlexible vs. Rigide Verfassungen\n9.\nKeine Normenkontrolle vs. \nNormenkontrolle durch \nVerfassungsgericht\n10. Abhängige vs. Unabhängige \nZentralbank\n\n\n",
+        "extractedPage": "Seite 14",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Merkmale korrelieren mit einem Mehrparteiensystem?",
+        "antworten": [
+            "a)) Regierungswechsel zwischen Parteien",
+            "b)) Pluralistische Interessenvertretung",
+            "c)) Zwei große Parteien",
+            "d)) Föderale Struktur",
+            "e)) Rigide Verfassungen"
+        ],
+        "correctAnswers": [
+            1,
+            2
+        ],
+        "schwierigkeit": "Unbekannt",
+        "fragetyp": "Unbekannt",
+        "zeitaufwand": "Unbekannt",
+        "extractedText": "\nLijphart nutzt 10 Variablen, um den Charakter von \nMehrheits- und Konsensdemokratie zu erfassen\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nZweite Dimension: \nVertikale Machtteilung\n6.\nUnitarisch-zentralisiert vs. \nFöderal-dezentralisiert\n7.\nUnikameralismus vs. \nBikameralismus\n8.\nFlexible vs. Rigide Verfassungen\n9.\nKeine Normenkontrolle vs. \nNormenkontrolle durch \nVerfassungsgericht\n10. Abhängige vs. Unabhängige \nZentralbank\n\n\n",
+        "extractedPage": "Seite 14",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Was ist ein Merkmal von Einparteienkabinetten?",
+        "antworten": [
+            "a)) Koalitionsregierungen",
+            "b)) Pluralistische Interessenvertretung",
+            "c)) Exekutivdominanz",
+            "d)) Verhältniswahlrecht",
+            "e)) Mehrheitswahlrecht"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nOperationalisierung der Variablen bei Lijphart (1)\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nOperationalisierung: \nBestehende Indizes\n1.\nMittelwert Regierungsdauer \nMinimal-Winning Koalition und \nEinparteienkabinette\n2.\nDurchschnittliche Lebensdauer von \nKabinetten\n3.\nEffektive Parteienanzahl ENP\n4.\nGallagher-Index der elektoralen \nDisproportionalität\n5.\nKorporatismus-Index nach Siaroff\n\n\n",
+        "extractedPage": "Seite 15",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche Indizes werden zur Operationalisierung der horizontalen Machtteilung verwendet?",
+        "antworten": [
+            "a)) Gallagher-Index",
+            "b)) Demokratie-Index",
+            "c)) Korporatismus-Index",
+            "d)) Zinssatz-Index",
+            "e)) Lebensqualitäts-Index"
+        ],
+        "correctAnswers": [
+            0,
+            2
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "MULTIPLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nOperationalisierung der Variablen bei Lijphart (1)\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nOperationalisierung: \nBestehende Indizes\n1.\nMittelwert Regierungsdauer \nMinimal-Winning Koalition und \nEinparteienkabinette\n2.\nDurchschnittliche Lebensdauer von \nKabinetten\n3.\nEffektive Parteienanzahl ENP\n4.\nGallagher-Index der elektoralen \nDisproportionalität\n5.\nKorporatismus-Index nach Siaroff\n\n\n",
+        "extractedPage": "Seite 15",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welches Wahlrecht ist mit einem Mehrparteiensystem verbunden?",
+        "antworten": [
+            "a)) Verhältniswahlrecht",
+            "b)) Mehrheitswahlrecht",
+            "c)) Föderalwahlrecht",
+            "d)) Gespaltenes Wahlrecht",
+            "e)) Unabhängiges Wahlrecht"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "schwierigkeit": "LEICHT",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "WENIGER1MINUTE",
+        "extractedText": "\nOperationalisierung der Variablen bei Lijphart (1)\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nOperationalisierung: \nBestehende Indizes\n1.\nMittelwert Regierungsdauer \nMinimal-Winning Koalition und \nEinparteienkabinette\n2.\nDurchschnittliche Lebensdauer von \nKabinetten\n3.\nEffektive Parteienanzahl ENP\n4.\nGallagher-Index der elektoralen \nDisproportionalität\n5.\nKorporatismus-Index nach Siaroff\n\n\n",
+        "extractedPage": "Seite 15",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    },
+    {
+        "frage": "Welche der folgenden Aussagen beschreibt eine Eigenschaft einer dominanten Legislative?",
+        "antworten": [
+            "a)) Sie hat die Kontrolle über die Exekutive",
+            "b)) Sie ist gleichberechtigt mit der Exekutive",
+            "c)) Sie hat weniger Macht als die Exekutive",
+            "d)) Sie agiert in Koalition mit einer Einheitsregierung",
+            "e)) Sie hat keinen Einfluss auf die Gesetzgebung"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "schwierigkeit": "MITTEL",
+        "fragetyp": "SINGLECHOICE",
+        "zeitaufwand": "1BIS3MINUTEN",
+        "extractedText": "\nOperationalisierung der Variablen bei Lijphart (1)\nErste Dimension: \nHorizontale Machtteilung\n1.\nEinparteienkabinette vs. \nKoalitionsregierungen\n2.\nExekutivdominanz vs. dominante \nLegislative\n3.\nZweiparteiensystem vs. \nMehrparteiensystem\n4.\nMehrheitswahlrecht vs. \nVerhältniswahlrecht\n5.\nPluralistische vs. korporatistische \nInteressenvertretung\nOperationalisierung: \nBestehende Indizes\n1.\nMittelwert Regierungsdauer \nMinimal-Winning Koalition und \nEinparteienkabinette\n2.\nDurchschnittliche Lebensdauer von \nKabinetten\n3.\nEffektive Parteienanzahl ENP\n4.\nGallagher-Index der elektoralen \nDisproportionalität\n5.\nKorporatismus-Index nach Siaroff\n\n\n",
+        "extractedPage": "Seite 15",
+        "extractedSession": "Sitzung 10",
+        "extractedPro": "",
+        "extractedLecture": "../03-FilteredData/Einführungsvorlesung Vergleichende Politikwissenschaft/Sitzung_10_Lijphart.pdf",
+        "ectractLectureName": "Sitzung_10_Lijphart.pdf"
+    }
+]
