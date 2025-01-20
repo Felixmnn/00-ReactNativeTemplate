@@ -3,7 +3,7 @@ import React from 'react'
 
 const QuestionBucket = ({selectedProject,changeQuestionBucket,questionBucket,typeSet}) => {
   return (
-    <View className="flex-row flex-wrap mb-2 w-full max-w-[500px]">
+    <View className="flex-wrap mb-2 w-full max-w-[500px]">
             <Text className="text-xl font-semibold m-2">{typeSet}</Text>
 
             <FlatList

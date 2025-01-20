@@ -24,7 +24,7 @@ const QuestionDetails = ({question, finishQuiz,showAnswers, shownAnsers }) => {
                     />
       <CustomButton title={"Stop Game"} 
                     containerStyles={"h-[20px] py-0 px-1"} 
-                    handlePress={()=> router.push("/home")}
+                    handlePress={()=> router.push("/progress")}
                     />
       <CustomButton title={"Report"} 
                     containerStyles={"bg-red-500 h-[20px] py-0 px-1"} 

@@ -27,7 +27,7 @@ const RenderResults = ({answers, questions, restartGame, isLoading}) => {
 
   
   return (
-    <ScrollView className='items-center ' contentContainerStyle={{ flexGrow: 1 }} style={{ flex: 1 }} >
+    <ScrollView contentContainerStyle={{ flexGrow: 1 }} style={{ flex: 1 }} >
       <View className='my-5'>
       <Text className='text-3xl font-bold'>Results:</Text>
       {
@@ -38,20 +38,20 @@ const RenderResults = ({answers, questions, restartGame, isLoading}) => {
           return (
           <TouchableOpacity
             key={index} // Einzigartiger Schlüssel für jedes TouchableOpacity
-            className={`p-2 mb-1 border border-[3px] rounded-[5px] max-w-[600px] ${areArraysEqual(yourAnswers, question.correctAnswers) ? "bg-green-200 border-green-300":"bg-red-200 border-red-300"}`}
-            onPress={() => changeShownAnsers(question.frage)} // Korrekte Funktionsausführung
+            className={`p-2 m-1 border  border-[2px] rounded-[5px] max-w-[600px] ${areArraysEqual(yourAnswers, question.questionCorrectAnswers) ? "bg-green-500":"bg-red-500"}`}
+            onPress={() => changeShownAnsers(question.questionQuestion)} // Korrekte Funktionsausführung
           >
-            <Text className="text-black">
-              {index + 1}. {question.frage}
+            <Text className="font-bold">
+              {index + 1}. {question.questionQuestion}
             </Text>
             {
-              showAnswers.includes(question.frage) ? (
-                question.antworten.map((answer, answerIndex) => (
-                  <View className={`mt-1 rounded-[5px] justify-between flex-row pr-2 ${question.correctAnswers.includes(answerIndex)? "bg-green-300" : null}`}>
+              showAnswers.includes(question.questionQuestion) ? (
+                question.questionAnswers.map((answer, answerIndex) => (
+                  <View className={`mt-1 rounded-[5px] justify-between flex-row pr-2 ${question.questionCorrectAnswers.includes(answerIndex)? "bg-green-500" : null}`}>
                     <Text key={answerIndex} className="text-black">
                       {answer}
                     </Text>
-                    <Text>
+                    <Text className='text-black'>
                       {
                         Array.isArray(yourAnswers) && yourAnswers.includes(answerIndex)  ? "X" : null
                       }
@@ -67,7 +67,7 @@ const RenderResults = ({answers, questions, restartGame, isLoading}) => {
         )})
       }
       <View className='flex-row justify-center'>
-      <CustomButton title={"Home"} handlePress={()=> router.push("/home")} containerStyles={"w-[150px]  items-center"} isLoading={isLoading}/>
+      <CustomButton title={"Home"} handlePress={()=> router.push("/progress")} containerStyles={"w-[150px]  items-center"} isLoading={isLoading}/>
       <CustomButton title={"Try Again"}  handlePress={restartGame} containerStyles={"w-[150px]  items-center"} isLoading={isLoading}/>
       </View>
       </View>

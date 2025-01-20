@@ -4,10 +4,13 @@ import questions from "../../assets/questions/10Questions.json"
 import CustomButton from '@/components/gui/CustomButton'
 import Toast from 'react-native-toast-message'
 import { router } from 'expo-router'
+import { useLocalSearchParams } from 'expo-router';
 
 
 const report = () => {
-  const exampleQuestion = questions.questions[2]
+  const { data } = useLocalSearchParams();
+    const exampleQuestion = data ? JSON.parse(data) : null;
+
   const possibleProblems = ["Irrelvant", "Falsche Antwort", "Zu Spezifisch"]
   const [selectedProblems, setSelectedProblems] = useState([])
   const [aditionalNotes, setAdtionalNotes] = useState("")
@@ -56,7 +59,7 @@ const report = () => {
           Toast.show({
           type: 'success', 
           position: 'top',
-          text1: `Vielen Dank für dein Feedback :)`, 
+          text1: `Vielen Dank für dein Feedback :) ${exampleQuestion.questionID}`, 
           });
           router.back();}}
         />

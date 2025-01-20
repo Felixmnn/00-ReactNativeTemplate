@@ -8,19 +8,19 @@ const QuestionNavigation = ({finishQuiz, questionsLength,currentQuestion,changeQ
       {
         currentQuestion == 0?
             <View className='flex-row'>
-                <View className='w-[162px]'/>
-                <CustomButton title="Next Question" handlePress={ ()=> changeQuestion(currentQuestion +1 )} containerStyles={"w-[150px] items-center"}/>
+                <View />
+                <CustomButton title="Next Question" handlePress={ ()=> changeQuestion(currentQuestion +1 )} containerStyles={"w-[200px] items-center"}/>
             </View>
         : currentQuestion == questionsLength -1 ?
             <View className='flex-row'>
-                <CustomButton title={"Previous Question"} handlePress={()=> changeQuestion(currentQuestion -1)} containerStyles={"w-[150px] items-center"}/>
-                <CustomButton title="End Quiz" handlePress={()=> finishQuiz(true)} containerStyles={"w-[150px] items-center"}/>
+                <CustomButton title={"Previous Question"} handlePress={()=> changeQuestion(currentQuestion -1)} containerStyles={"w-[200px] items-center"}/>
+                <CustomButton title="End Quiz" handlePress={()=> finishQuiz(true)} containerStyles={"w-[2000px] items-center"}/>
             </View>
             
         : 
             <View className='flex-row'>
-                <CustomButton title={"Previous Question"} handlePress={()=> changeQuestion(currentQuestion -1)} containerStyles={"w-[150px] items-center"}/>
-                <CustomButton title={"Next Question"} handlePress={ ()=> changeQuestion(currentQuestion +1 )} containerStyles={"w-[150px] items-center"}/>
+                <CustomButton title={"Previous Question"} handlePress={()=> changeQuestion(currentQuestion -1)} containerStyles={"w-[200px] items-center"}/>
+                <CustomButton title={"Next Question"} handlePress={ ()=> changeQuestion(currentQuestion +1 )} containerStyles={"w-[200px] items-center"}/>
             </View>
 
 

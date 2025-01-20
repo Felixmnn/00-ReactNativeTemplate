@@ -27,7 +27,7 @@ const Modes = ({modes,selectedMode,setSelectedMode,setselectNumber,setSelectedDu
               keyExtractor={(item)=> item.name}
               renderItem={({item})=> {
                 return (
-                  <TouchableOpacity className={`items-center justify-center p-1 m-1 rounded-[5px] border border-2 border-white ${item.name == selectedMode ? "bg-blue-200 border-blue-300 " : "bg-gray-300 border-gray-400"}`}
+                  <TouchableOpacity className={`items-center justify-center p-1 m-2 rounded-[5px] border border-2 border-white ${item.name == selectedMode ? "bg-blue-200 border-blue-300 " : "bg-gray-300 border-gray-400"}`}
                                     onPress={()=> handlPres(item)}
                                       >
                     <View className="h-[60px] w-[60px] bg-gray-500"></View>

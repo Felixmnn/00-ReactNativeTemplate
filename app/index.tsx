@@ -38,7 +38,7 @@ const index = () => {
           <ActivityIndicator size="large" color="#1f3f70" />
         :
         <View>
-          <TouchableOpacity onPress={()=> router.push("/home")} className="bg-primary p-2 rounded-[5px] w-[150px] items-center">
+          <TouchableOpacity onPress={()=> router.push("/progress")} className="bg-primary p-2 rounded-[5px] w-[150px] items-center">
             <Text className='text-xl font-bold text-white'>Get Started</Text>
           </TouchableOpacity>
         </View>

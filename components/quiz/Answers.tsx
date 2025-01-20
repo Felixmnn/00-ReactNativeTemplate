@@ -2,16 +2,17 @@ import { View, Text } from 'react-native'
 import React from 'react'
 
 const Answers = ({answers}) => {
-  console.log(answers)
+  console.log("Antworten",answers)
   return (
     <View>
       {
-        answers.correctAnswers && answers.correctAnswers.map((index)=>{
+        answers.questionCorrectAnswers && answers.questionCorrectAnswers.map((index)=>{
           return (
-            <Text key={answers.antworten[index]} className='font-bold'>{answers.antworten[index]}</Text>
+            <Text key={answers.questionAnswers[index]} className='font-bold'>{answers.questionAnswers[index]}</Text>
           )
         })
       }
+      <Text>Answers Shown</Text>
     </View>
   )
 }

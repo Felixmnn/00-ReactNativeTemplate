@@ -1,4 +1,4 @@
-import { View,Text, TouchableOpacity, SafeAreaView,FlatList,Platform,ScrollView } from 'react-native';
+import { View,Text, TouchableOpacity,FlatList,Platform,ScrollView } from 'react-native';
 import  CustomButton  from "@/components/gui/CustomButton"
 import ProfileHeader from '@/components/gui/ProfileHeader';
 import ProjectBanner from '@/components/gui/ProjectBanner';
@@ -12,20 +12,28 @@ import SystemAllgemein from "../../assets/questions/Einführungsvorlesung Forsch
 import SystemOderSo from "../../assets/questions/Einführungsvorlesung Vergleichende Politikwissenschaft.json"
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { GlobalContext } from '@/context/GlobalProvider';
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useColorScheme } from '@/hooks/useColorScheme';
-
+import {logIn, singIn,recoveryRequest,recoveryAnswer} from "../../lib/appwriteAuth"
+import { getProjectTemplates } from "../../lib/appwriteData"
+import ProjectSlectable from '@/components/gui/ProjectSlectable';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 export default function HomeScreen() {
+  
   const colorScheme = useColorScheme();
 
   const { state, setState } = useContext(GlobalContext);
-  const projects = state.projekte
-  
-  const projectList = ["SystemDeutschlands","SystemAllgemein","SystemOderSo"]
-  console.log(state.projekte)
+  const [ projectList, setProjectList ] = useState(null)
+  const [ projectTemplateList, setTemplateProjectList ] = useState([])
+  console.log("Hier fehler warum?",state.projektTemplates) 
 
+  useEffect (()=> {
+    setProjectList(state.projekte)
+    setTemplateProjectList(state.projektTemplates)
+  },[state.projektTemplates])
+  
   /*
 const projects = [{ 
     projectName:"System Deutschland", 
@@ -54,7 +62,6 @@ const projects = [{
   */
 
 // Setze die Ausgabe für NativeWind auf "native"
-  const keys = Object.keys(projectList)
   const exampleProejct1 = { 
     projectName:"System Deutschland", 
     projectPercentage: 1, 
@@ -82,7 +89,9 @@ const projects = [{
 
   const currentTime = new Date()
   return (
-    <SafeAreaView >
+    
+    <SafeAreaView className='flex-1' >
+      <View className='bg-white flex-1'>
       <View className='bg-primary rounded-bl-[5px] p-2 w-full'>
           <ProfileHeader name={"Felix"} imageSource={require("../../assets/images/EinführungsvorlesungDasPolitischeSystemDeutschlands.png")} handlePress={()=> router.push("/profile")}/>
         </View>
@@ -91,65 +100,22 @@ const projects = [{
         <View className='justify-between p-2 items-center flex-1 w-full max-w-[600px] '>
           <View className='w-full max-w-[600px] ' >
               <Text className='font-semibold text-xl'>All Quizzes</Text>
+              <Text>{state.projektTemplates? "true" : "false"}</Text>
               <FlatList
-                  data={projectList}
-                  keyExtractor={(item) =>  item}
+                  data={projectTemplateList}
+                  keyExtractor={(item) => item}
                   renderItem={ ({item}) => {
                     return (
-                      <TouchableOpacity 
-                        className='flex-wrap p-2 bg-[#fff] mt-2 rounded-[5px] w-full bg-blue-200 border border-[2px] border-blue-300 max-w-[600px]'
-                        activeOpacity={0.7}
-                        >
-                        <Text className='text-center'>{item}</Text>
-                      </TouchableOpacity>
+                        <ProjectSlectable project={item} projectList={projectList}/>
                     )
                   }
                     
                   }
                 />
-                <View className='flex-row justify-start my-2 items-start'>
-                  <TouchableOpacity onPress={()=> router.push("/allquizzes")}>
-                            <Text className="font-bold underline">show all</Text>
-                  </TouchableOpacity>
-                </View>
             </View>
-            <View className=' w-full max-w-[600px] justify-end'>
-                <Text className='font-semibold text-xl'>Your Current Projects</Text>
-                {
-                  projects ?
-                
-                <View >
-                <FlatList
-                  data={projects}
-                  keyExtractor={(project) => project.projectName}
-                  renderItem={({item})=> {
-                    const questionAmount = item.projectQuestionLog.length
-                    let counter = 0
-                    for (let zahl of item.projectQuestionLog){
-                      if(zahl >0){
-                        counter += 1
-                      }
-                    }
-                    const questionsAnswered = counter
-                    return (
-                      <ProjectBanner
-                        containerStyles={`w-full max-w-[600px] mt-2 border border-[3px]  ${questionsAnswered / questionAmount < 0.7 ?  questionsAnswered/questionAmount < 0.3 ? "bg-red-400 border-red-500" :"bg-orange-400 border-orange-500" :"bg-green-400 border-green-500"}`} 
-                        projectName={item.projectName}
-                        projectPercentage={`${item.projectPercentage}`}
-                        projectQuestions={questionAmount} 
-                        projectQuestionsAnswered={questionsAnswered}
-                      />
-                    )
-                  }}
-                />
-                </View>
-
-                : 
-                <CustomButton title={"create your first project"} handlePress={() => createProject()}/>
-              }
-                </View>
             </View>
             </View>
             </ScrollView>
+      </View>
     </SafeAreaView>
 )};
