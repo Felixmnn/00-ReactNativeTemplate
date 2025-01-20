@@ -21,7 +21,7 @@ const activequiz = () => {
     const quizFragen = parsedData ? parsedData.formatedQuestions : questions.questions
     const questionsLength = quizFragen.length
     const examMode = false
-    
+
     const [ fragenAbgeschlossen, setFragenAbgeschlossen ] = useState(false)
     const [ currentQuestion, setCurrentQuestion ] = useState(0)
     const [ answers, setAnswer ] = useState([])
@@ -30,13 +30,74 @@ const activequiz = () => {
     const [ isLoading, setIsLoading ] = useState(false)
     const [ allEntrysMade, setAllEntrysMade] = useState(false)
 
+    function arraysEqual(arr1, arr2) {
+        if (arr1.length !== arr2.length) return false;
+        for (let i = 0; i < arr1.length; i++) {
+          if (arr1[i] !== arr2[i]) return false;
+        }
+        return true;
+      }
+    
+    
+
     async function endQuiz (){
         setIsLoading(true)
-        const currentProject = await AsyncStorage.getItem(`Project-${projectName}`)
+        const currentProjectString = await AsyncStorage.getItem(`Project-${projectName}`)
+
         
-        const parsedData = JSON.parse(currentProject);
-        parsedData.projectPassed = 1; 
-        await AsyncStorage.setItem(`Project-${projectName}`, JSON.stringify(parsedData));
+
+        let count = 0
+        for (let i = 0; i < answers.length; i++){
+            console.log("Die Passende Antwort",quizFragen[answers[i].question].questionCorrectAnswers)
+            console.log("Meine Antwort.",answers[i].answers )
+            if (arraysEqual(answers[i].answers, quizFragen[answers[i].question].questionCorrectAnswers)) {
+                console.log("Success")
+                console.log("Question ID:", quizFragen[answers[i].question].questionID)
+                count += 1
+            }
+        }
+        console.log("Count: ", count)
+
+        if (currentProjectString){
+            let currentProject = JSON.parse(currentProjectString)
+            if (count >= quizFragen.length){
+                currentProject.projectPassed += 1
+            } else {
+                if (currentProject.projectPassed > 0){
+                    currentProject.projectPassed -= 1
+                    console.log("Nicht bestanden")
+                }
+            }
+            for (let i = 0; i < answers.length; i++) {
+                for (let j = 0; j < currentProject.projectChpaters.length; j++) {
+                  if (currentProject.projectChpaters[j].chapterQuestionConfig.includes(quizFragen[answers[i].question].questionID)) {
+                    const parsed = JSON.parse(currentProject.projectChpaters[j].chapterQuestionConfig);
+                    
+                    // Finde die Position 'x', an der die 'questionId' übereinstimmt
+                    const x = parsed.findIndex(item => item.questionId === quizFragen[answers[i].question].questionID);
+              
+                    if (x !== -1) { // Stelle sicher, dass ein gültiger Index gefunden wurde
+                      if (arraysEqual(answers[i].answers, quizFragen[answers[i].question].questionCorrectAnswers)) {
+                        parsed[x].questionTrue += 1;
+                      } else {
+                        parsed[x].questionTrue -= 1;
+                      }
+              
+                      // Optionale Speicherung der aktualisierten `parsed` zurück in `chapterQuestionConfig`
+                      currentProject.projectChpaters[j].chapterQuestionConfig = JSON.stringify(parsed);
+                      console.log("Erfolgreich Angepasst")
+                    }
+                  }
+                }
+              }
+            
+            
+
+            currentProject.projectCount += 1;
+            const updatedProjectString = JSON.stringify(currentProject);
+            await AsyncStorage.setItem(`Project-${projectName}`, updatedProjectString);
+            console.log("Updated Project:", currentProject);
+        }
         setFragenAbgeschlossen(true)
         setAllEntrysMade(true)
         setIsLoading(false)
@@ -46,10 +107,12 @@ const activequiz = () => {
         setAnswer([])
         setCurrentQuestion(0)
     }
+
+    
     
  
   return (
-    <View className='flex-1'>^
+    <View className='flex-1'>
         
         {
             !fragenAbgeschlossen   ?

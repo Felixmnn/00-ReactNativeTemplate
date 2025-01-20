@@ -79,20 +79,14 @@ async function startQuiz() {
     });
   } else if (selectedAmount !== null && selectedTopics !== null && selectedFilters !== null && selectedDuration !== null) {
 
-  //Aufruf mit Beispieldaten:
-  console.log("Stating the Question formating")
-  console.log("Topics: ",selectedTopics )
-  console.log("Filters: ",selectedFilters )
-  console.log("Amout ?: ",selectedAmount )
-  console.log("Duration ? : ",selectedDuration )
+  
+ 
   //Funktionierender Test Case -->
   //const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:10,selectedAmount:10,selectedTopics:[ 'Tsebelis', 'Systeme', 'Wahlen'],selectedFilters:['ALLQUESTIONS', '>3MINUTES']})
   const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:selectedDuration.timeDuration,selectedAmount:selectedAmount.timeDuration,selectedTopics:selectedTopics,selectedFilters:selectedFilters})
   
-  console.log("Random Questions",randomquestions)
   let formatedQuestions = []
   for (let i = 0 ; i< randomquestions.length; i++){
-    console.log(i)
     const question = await getItem(randomquestions[i])
     const formatedQuestion = {
       questionQuestion: question.questionName,
@@ -109,7 +103,6 @@ async function startQuiz() {
     formatedQuestions.push(formatedQuestion)
   }
   
-  console.log("Formated Questions",formatedQuestions)
   const allParams = {formatedQuestions:formatedQuestions,selectedProject: projectList[selectedProject].projectName }
   router.push({ pathname: "/activequiz", params: { data: JSON.stringify(allParams) } })
   }
