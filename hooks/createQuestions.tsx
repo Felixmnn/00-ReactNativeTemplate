@@ -31,6 +31,7 @@ function filterTopics({allChapters,selectedChapters}){
 
         if (allChapters.some((chapter)=> chapter.chapterName === selectedChapters[i])){
             topics.push(allChapters.filter((chapter)=> chapter.chapterName !== selectedChapters[i]))
+            console.log("Why add Array?", allChapters.filter((chapter)=> chapter.chapterName !== selectedChapters[i]))
             console.log("Topics",topics)
         }
     }

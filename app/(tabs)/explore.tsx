@@ -81,7 +81,14 @@ async function startQuiz() {
 
   //Aufruf mit Beispieldaten:
   console.log("Stating the Question formating")
-  const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:10,selectedAmount:10,selectedTopics:[ 'Tsebelis', 'Systeme', 'Wahlen'],selectedFilters:['ALLQUESTIONS', '>3MINUTES']})
+  console.log("Topics: ",selectedTopics )
+  console.log("Filters: ",selectedFilters )
+  console.log("Amout ?: ",selectedAmount )
+  console.log("Duration ? : ",selectedDuration )
+  //Funktionierender Test Case -->
+  //const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:10,selectedAmount:10,selectedTopics:[ 'Tsebelis', 'Systeme', 'Wahlen'],selectedFilters:['ALLQUESTIONS', '>3MINUTES']})
+  const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:selectedDuration.timeDuration,selectedAmount:selectedAmount.timeDuration,selectedTopics:selectedTopics,selectedFilters:selectedFilters})
+  
   console.log("Random Questions",randomquestions)
   let formatedQuestions = []
   for (let i = 0 ; i< randomquestions.length; i++){
@@ -106,7 +113,6 @@ async function startQuiz() {
   const allParams = {formatedQuestions:formatedQuestions,selectedProject: projectList[selectedProject].projectName }
   router.push({ pathname: "/activequiz", params: { data: JSON.stringify(allParams) } })
   }
-    //const questions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:selectedDuration,selectedAmount:selectedAmount,selectedTopics:selectedTopics,selectedFilters:selectedFilters})
     }
   
 
