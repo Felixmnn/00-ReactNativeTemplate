@@ -77,12 +77,15 @@ async function startQuiz() {
       position: 'top',
       text1: `Select a Filter`, 
     });
-  } else {
+  } else if (selectedAmount !== null && selectedTopics !== null && selectedFilters !== null && selectedDuration !== null) {
+
   //Aufruf mit Beispieldaten:
   console.log("Stating the Question formating")
-  const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:10,selectedAmount:10,selectedTopics:[ 'Legislative', 'Verfassungsgericht', 'Wahlsystem'],selectedFilters:['ALLQUESTIONS', '>3MINUTES']})
+  const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:10,selectedAmount:10,selectedTopics:[ 'Tsebelis', 'Systeme', 'Wahlen'],selectedFilters:['ALLQUESTIONS', '>3MINUTES']})
+  console.log("Random Questions",randomquestions)
   let formatedQuestions = []
   for (let i = 0 ; i< randomquestions.length; i++){
+    console.log(i)
     const question = await getItem(randomquestions[i])
     const formatedQuestion = {
       questionQuestion: question.questionName,
@@ -97,13 +100,15 @@ async function startQuiz() {
       questionID:question.$id
     }
     formatedQuestions.push(formatedQuestion)
-
   }
+  
+  console.log("Formated Questions",formatedQuestions)
   const allParams = {formatedQuestions:formatedQuestions,selectedProject: projectList[selectedProject].projectName }
   router.push({ pathname: "/activequiz", params: { data: JSON.stringify(allParams) } })
+  }
     //const questions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:selectedDuration,selectedAmount:selectedAmount,selectedTopics:selectedTopics,selectedFilters:selectedFilters})
     }
-  }
+  
 
 
 

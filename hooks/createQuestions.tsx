@@ -9,23 +9,32 @@ export function returnQuestions({selectedProject,selectedDuration,selectedAmount
     //Filtert die Projekte
     const relevantTopics = filterTopics({allChapters:selectedProject.projectChpaters,selectedChapters:selectedTopics})
     //Returnt die Fragenids 
+    console.log("Relevant Topic Erfolgreich:",relevantTopics)
     const questions = getQuestions({relevantTopics:relevantTopics,selectedFilters:selectedFilters})
+    console.log("questions Erfolgreich:",relevantTopics)
+
     //Funktion returnt die IDs
     const randomQuestions = getRandomUniqueEntries(questions,selectedAmount)
+    console.log("randomQuestions Erfolgreich:",relevantTopics)
+
     return randomQuestions
     
 }
 
 
 function filterTopics({allChapters,selectedChapters}){
-    console.log("Diese Funktion ebenfalls")
+    console.log("Daten Fehler:", allChapters, selectedChapters)
     let topics = []
     for (let i = 0; i < selectedChapters.length; i++){
+        
         console.log(selectedChapters[i])
+
         if (allChapters.some((chapter)=> chapter.chapterName === selectedChapters[i])){
             topics.push(allChapters.filter((chapter)=> chapter.chapterName !== selectedChapters[i]))
+            console.log("Topics",topics)
         }
     }
+    console.log("Wo sind die topics", topics)
     return topics
 }
 
@@ -34,6 +43,7 @@ function getQuestions({relevantTopics,selectedFilters}){
     for (let i = 0; i < relevantTopics.length;i++){
         const relevant = relevantTopics[i][0].chapterQuestionConfig
         const parsedString = JSON.parse(relevant)
+        console.log("Relevant", parsedString)
         console.log(selectedFilters)
         for (let y = 0; y < parsedString.length;y++){
             if (selectedFilters.includes("ALLQUESTIONS")){

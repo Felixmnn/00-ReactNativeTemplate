@@ -14,16 +14,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 
 
 const activequiz = () => {
-    const [ exampleQuestion, setExampleQuestion ] = useState(null)
     const { data } = useLocalSearchParams();
     const parsedData = data ? JSON.parse(data) : null;
 
-    setExampleQuestion(parsedData.formatedQuestions)
     const projectName = parsedData.selectedProject
-
-    exampleQuestion ? exampleQuestion : questions.questions
+    const quizFragen = parsedData ? parsedData.formatedQuestions : questions.questions
     const questionsLength = quizFragen.length
     const examMode = false
+    
     const [ fragenAbgeschlossen, setFragenAbgeschlossen ] = useState(false)
     const [ currentQuestion, setCurrentQuestion ] = useState(0)
     const [ answers, setAnswer ] = useState([])
