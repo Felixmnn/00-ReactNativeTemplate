@@ -120,9 +120,9 @@ const activequiz = () => {
         
         {
             !fragenAbgeschlossen   ?
-                <View className='flex-1'>
+                <View className='flex-1 items-center'>
                     <QuizHeader questionCount={questionsLength} questionsAnswered={currentQuestion +1} compleationBarWidht={300} />
-                    <View className='flex-1 items-center justify-center'>
+                    <View className='flex-1 justify-center'>
                         <Text className='text-xl font-bold mb-5 max-w-[600px] text-center'>{quizFragen[currentQuestion].questionQuestion}</Text>
                             <RenderQuestion question= {quizFragen[currentQuestion]} 
                                             addAnswer={setAnswer}

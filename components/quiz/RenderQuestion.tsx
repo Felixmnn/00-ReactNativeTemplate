@@ -5,7 +5,7 @@ import QuizOption from './QuizOption'
 
 const RenderQuestion = ({question, addAnswer,questionIndex,answers}) => {
   return (
-    <View className='items-center'>
+    <View className='items-center w-full'>
         {
             question.questionAnswers.map((item, index) => { 
                 return (

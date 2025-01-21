@@ -9,7 +9,7 @@ export function returnQuestions({selectedProject,selectedDuration,selectedAmount
     const relevantTopics = filterTopics({allChapters:selectedProject.projectChpaters,selectedChapters:selectedTopics})
     //Returnt die Fragenids 
     const questions = getQuestions({relevantTopics:relevantTopics,selectedFilters:selectedFilters})
-
+    console.log("All relevant Questions",questions)
     //Funktion returnt die IDs
     const randomQuestions = getRandomUniqueEntries(questions,selectedAmount)
 
@@ -20,12 +20,12 @@ export function returnQuestions({selectedProject,selectedDuration,selectedAmount
 
 function filterTopics({allChapters,selectedChapters}){
     let topics = []
-    for (let i = 0; i < selectedChapters.length; i++){
-        
+    console.log("Starting Topic pick Process",topics)
 
+    for (let i = 0; i < selectedChapters.length; i++){
         if (allChapters.some((chapter)=> chapter.chapterName === selectedChapters[i])){
-            topics.push(allChapters.filter((chapter)=> chapter.chapterName !== selectedChapters[i]))
-            
+            topics.push(allChapters.filter((chapter)=> chapter.chapterName === selectedChapters[i]))
+            console.log("Topic State",topics)
         }
     }
     return topics

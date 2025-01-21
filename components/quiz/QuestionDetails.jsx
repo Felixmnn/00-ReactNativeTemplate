@@ -2,38 +2,23 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import CustomButton from '../gui/CustomButton'
 import { router } from 'expo-router'
+import TouchableIcon from '../gui/TouchableIcon'
 
 const QuestionDetails = ({question, finishQuiz,showAnswers, shownAnsers }) => {
   return (
-    <View className='flex-row justify-between'>
-      <CustomButton title={"Source"} 
-                    containerStyles={"h-[20px] py-0 px-1"} 
-                    handlePress={() => {
+    <View className='flex-row justify-between w-full max-w-[600px]'>
+      <TouchableIcon iconName={"book"} handlePress={() => {
                       router.push({
                         pathname: '/source',
                         params: { data: JSON.stringify(question) },
-                      })}}         
-                    />
-      <CustomButton title={shownAnsers? "Show Answers" : "Hide Answers"} 
-                    containerStyles={"h-[20px] py-0 px-1"}
-                    handlePress={()=> showAnswers(!shownAnsers)}
-                    />
-      <CustomButton title={"Finish Quiz"} 
-                    containerStyles={"h-[20px] py-0 px-1"} 
-                    handlePress={()=> finishQuiz(true)}
-                    />
-      <CustomButton title={"Stop Game"} 
-                    containerStyles={"h-[20px] py-0 px-1"} 
-                    handlePress={()=> router.push("/progress")}
-                    />
-      <CustomButton title={"Report"} 
-                    containerStyles={"bg-red-500 h-[20px] py-0 px-1"} 
-                    handlePress={() => {
+                      })}} />
+      <TouchableIcon iconName={shownAnsers? "eye-slash" : "eye"} handlePress={()=> showAnswers(!shownAnsers)}/>
+      <TouchableIcon iconName={"trophy"} handlePress={()=> finishQuiz(true)}/>
+      <TouchableIcon iconName={"bug"} handlePress={() => {
                       router.push({
                         pathname: '/report',
                         params: { data: JSON.stringify(question) },
-                      })}}         
-                    />
+                      })}} />
     </View>
   )
 }
