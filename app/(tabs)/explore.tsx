@@ -34,6 +34,8 @@ export default function TabTwoScreen() {
   const [ selectedAmount, setSelectedAmount ] = useState(null)
   const [ selectedTopics, setSelectedTopics ] = useState(null)
   const [ selectedFilters, setSelectedFilters ] = useState(null)
+  
+  const [ loading, setLoading ] = useState(false)
 
 //Konstanten
 const duration = [
@@ -80,7 +82,7 @@ async function startQuiz() {
   } else if (selectedAmount !== null && selectedTopics !== null && selectedFilters !== null && selectedDuration !== null) {
 
   
- 
+    setLoading(true)
   //Funktionierender Test Case -->
   //const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:10,selectedAmount:10,selectedTopics:[ 'Tsebelis', 'Systeme', 'Wahlen'],selectedFilters:['ALLQUESTIONS', '>3MINUTES']})
   const randomquestions = returnQuestions({selectedProject:projectList[selectedProject],selectedDuration:selectedDuration.timeDuration,selectedAmount:selectedAmount.timeDuration,selectedTopics:selectedTopics,selectedFilters:selectedFilters})
@@ -112,10 +114,11 @@ async function startQuiz() {
 
 
   return (
-    <SafeAreaView className="flex-1 bg-black">
-      <ScrollView>
+    <SafeAreaView className="flex-1 items-center">
       <Text className="text-white font-bold text-2xl text-center w-full p-3 bg-primary">Start Quiz</Text>
-        <View className="flex-1 bg-white">
+
+      <ScrollView className="bg-white">
+        <View className="flex-1 ">
         {
           projectList === null ? 
 
@@ -124,13 +127,18 @@ async function startQuiz() {
           projectList === false ?
           <Text>Keine Projekte</Text>
           :
-          <View className="bg-whites flex-1">
+          <View className="items-center w-full">
             <YourPorjects project={projectList} setSelectedProject={setSelectedProject} selectedProject={selectedProject}/>
+            <Text className="font-bold ml-2 w-full text-start">Duration</Text>
             <SingleSelectList content={duration} item={selectedDuration} setItem={setSelectedDuration}/>
+            <Text className="font-bold  ml-2 w-full text-start">Question Amount</Text>
             <SingleSelectList content={amount} item={selectedAmount} setItem={setSelectedAmount}/>
-            <FilterList filters={projectList[selectedProject].projectFilters} selectedFilters={selectedFilters} setSelectedFilters={setSelectedFilters} />
+            <Text className="font-bold  ml-2 w-full text-start">Chapters</Text>
             <ChapterList topics={projectList[selectedProject].projectChpaters} selectedTopics={selectedTopics} setSelectedTopics={setSelectedTopics}/>
-            <CustomButton title={"Let the fun Part begin"} handlePress={()=> startQuiz()}/>
+            <Text className="font-bold  ml-2 w-full text-start">Filters</Text>
+            <FilterList filters={projectList[selectedProject].projectFilters} selectedFilters={selectedFilters} setSelectedFilters={setSelectedFilters} />
+            
+            <CustomButton title={"Lets Go"} handlePress={()=> {startQuiz()}} isLoading={loading}/>
           </View>
         }
         </View>

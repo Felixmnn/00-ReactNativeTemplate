@@ -20,11 +20,12 @@ const ChapterList = ({topics, selectedTopics, setSelectedTopics}) => {
         }
 
   return (
-    <View>
+    <View className="flex-row flex-wrap justify-start w-full">
         {
-            topics.map((topic)=> {
+            topics.map((topic , index)=> {
                 return <TouchableOpacity
-                    className={`p-2 ${Array.isArray(selectedTopics) && selectedTopics.includes(topic.chapterName)? "bg-red-500": "bg-gray-300"}`}
+                    key={index}
+                    className={`p-2 rounded-[5px] m-1 ${Array.isArray(selectedTopics) && selectedTopics.includes(topic.chapterName)? "bg-red-500": "bg-gray-300"}`}
                     onPress={()=> changeFilters(topic.chapterName)}
                 >
                     <Text>{topic.chapterName}</Text>

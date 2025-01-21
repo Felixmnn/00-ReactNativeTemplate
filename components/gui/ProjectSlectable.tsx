@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import { getItemList } from '@/lib/appwriteData';
 import CustomButton from './CustomButton';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { router } from 'expo-router';
 
 
 const ProjectSlectable = ({project,projectList}) => {
@@ -23,14 +24,15 @@ const ProjectSlectable = ({project,projectList}) => {
         console.log("The Entry Name:", `Project-${newEntry.projectName}`)
         console.log("The Entry: ",newEntry)
         await AsyncStorage.setItem(`Project-${newEntry.projectName}`,JSON.stringify(newEntry))
+        router.push("/")
     }
  
   return (
     <View 
-        className={`flex-wrap p-2 bg-[#fff] mt-2 rounded-[5px] w-full border border-[2px] border-blue-300 max-w-[600px]`}
+        className={` p-2 bg-blue-300 mt-2 rounded-[5px] w-full border border-[2px] border-blue-500 max-w-[600px]`}
         >
         <View className='  flex-row justify-between'>
-        <Text className='text-center font-bold text-xl text-left'>{project.projectName}</Text>
+        <Text className=' font-bold text-xl text-left'>{project.projectName}</Text>
         {
             showDetails? 
             <TouchableOpacity
@@ -65,7 +67,7 @@ const ProjectSlectable = ({project,projectList}) => {
                 {
                     projectList && projectList.some((item)=> item.projectName ==  project.projectName) ?
 
-                    <Text>Project Exists</Text>
+                    <Text>Project Already Added</Text>
                     :
                     <CustomButton title={"Add to my Projects"} containerStyles={"items-cente justify-center"} textStyles={"text-center"} handlePress={()=> addAsyncEntry() }/>
                 } 

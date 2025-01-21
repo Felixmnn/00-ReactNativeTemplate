@@ -60,8 +60,12 @@ const activequiz = () => {
 
         if (currentProjectString){
             let currentProject = JSON.parse(currentProjectString)
-            if (count >= quizFragen.length){
+            console.log(quizFragen.length)
+            console.log(quizFragen.length/2)
+
+            if (count >= quizFragen.length/2){
                 currentProject.projectPassed += 1
+                console.log("Added 1 to success Counte")
             } else {
                 if (currentProject.projectPassed > 0){
                     currentProject.projectPassed -= 1
@@ -112,7 +116,7 @@ const activequiz = () => {
     
  
   return (
-    <View className='flex-1'>
+    <View className='flex-1 bg-white'>
         
         {
             !fragenAbgeschlossen   ?

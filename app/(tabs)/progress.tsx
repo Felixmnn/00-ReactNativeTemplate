@@ -19,7 +19,6 @@ const progress = () => {
   const [ listIndex, setListIndex ] = useState(0)
   const [ projectList, setProjectList ] = useState([])
   console.log("Hier fehler warum?",state.projektTemplates) 
-  
   const projekte = state.projekte
   console.log("Projekte", projekte)
   useEffect (()=> {
@@ -34,7 +33,7 @@ const progress = () => {
   return (
     <SafeAreaView className='flex-1 '>
     <ScrollView className='bg-white'>
-            <Text className="text-white font-bold text-2xl text-center w-full p-3 bg-primary">Project Progress</Text>
+            <Text className="text-white font-bold text-2xl text-center w-full p-3 bg-primary">Progress</Text>
             {
               Array.isArray(projekte) ? 
                 <View className='w-full items-center'>

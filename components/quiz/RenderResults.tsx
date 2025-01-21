@@ -28,7 +28,7 @@ const RenderResults = ({answers, questions, restartGame, isLoading}) => {
   
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1 }} style={{ flex: 1 }} >
-      <View className='my-5'>
+      <View className='my-5 items-center w-full'>
       <Text className='text-3xl font-bold'>Results:</Text>
       {
         questions.map((question, index) => {
@@ -38,7 +38,7 @@ const RenderResults = ({answers, questions, restartGame, isLoading}) => {
           return (
           <TouchableOpacity
             key={index} // Einzigartiger Schlüssel für jedes TouchableOpacity
-            className={`p-2 m-1 border  border-[2px] rounded-[5px] max-w-[600px] ${areArraysEqual(yourAnswers, question.questionCorrectAnswers) ? "bg-green-500":"bg-red-500"}`}
+            className={`p-2 m-1 border  border-[2px] rounded-[5px] w-full max-w-[600px] ${areArraysEqual(yourAnswers, question.questionCorrectAnswers) ? "bg-green-400 border-green-600":"bg-red-400 border-red-600"}`}
             onPress={() => changeShownAnsers(question.questionQuestion)} // Korrekte Funktionsausführung
           >
             <Text className="font-bold">
@@ -47,7 +47,7 @@ const RenderResults = ({answers, questions, restartGame, isLoading}) => {
             {
               showAnswers.includes(question.questionQuestion) ? (
                 question.questionAnswers.map((answer, answerIndex) => (
-                  <View className={`mt-1 rounded-[5px] justify-between flex-row pr-2 ${question.questionCorrectAnswers.includes(answerIndex)? "bg-green-500" : null}`}>
+                  <View className={`mt-1 rounded-[5px] justify-between flex-row pr-2 ${question.questionCorrectAnswers.includes(answerIndex)? "bg-green-400" : null}`}>
                     <Text key={answerIndex} className="text-black">
                       {answer}
                     </Text>

@@ -19,18 +19,17 @@ const FilterList = ({filters, selectedFilters, setSelectedFilters}) => {
 
 
   return (
-    <View>
-      {
-        filters.map((filter)=> {
-            return <TouchableOpacity
-            className={`p-2 ${Array.isArray(selectedFilters) && selectedFilters.includes(filter)? "bg-red-500": "bg-gray-300"}`}
-            onPress={()=> changeFilters(filter)}
-            >
-                <Text>{filter}</Text>
-            </TouchableOpacity>
-        })
-      }
-    </View>
+    <View className="flex-row flex-wrap justify-start w-full">
+        {filters.map((filter, index) => (
+          <TouchableOpacity
+            key={index}
+            className={`p-2 m-1 rounded ${Array.isArray(selectedFilters) && selectedFilters.includes(filter) ? 'bg-red-500' : 'bg-gray-300'}`}
+            onPress={() => changeFilters(filter)}
+          >
+            <Text>{filter}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
   )
 }
 

@@ -13,15 +13,17 @@ const SingleSelectList = ({content, item, setItem}) => {
   }
 
   return (
-    <View>
-      {
-        content.map((obj)=>{
-          return <TouchableOpacity key={obj.id} className={` p-2 ${ item !== null && obj.name === item.name ? " bg-red-500" :"bg-gray-300"}`} onPress={()=> changeItem(obj)}>
+    <View className="flex-row flex-wrap justify-start w-full">
+        {content.map((obj) => (
+          <TouchableOpacity
+            key={obj.id}
+            className={`p-2 m-1 rounded ${item !== null && obj.name === item.name ? 'bg-red-500' : 'bg-gray-300'}`}
+            onPress={() => changeItem(obj)}
+          >
             <Text>{obj.name}</Text>
           </TouchableOpacity>
-        })
-      }
-    </View>
+        ))}
+      </View>
   )
 }
 

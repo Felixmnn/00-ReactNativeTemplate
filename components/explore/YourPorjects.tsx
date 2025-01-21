@@ -25,7 +25,7 @@ const YourPorjects = ({project,setSelectedProject,selectedProject}) => {
   }
 
   return (
-    <View className='h-[150px] rounded-[5px] w-[96%] max-w-[500px] m-2 flex-row justify-between items-center'>
+    <View className='h-[75px] rounded-[5px] w-[96%] max-w-[500px] m-2 flex-row justify-between items-center'>
       <TouchableIcon iconName={"chevron-left"} handlePress={()=> changeProjekt("minus")}/>
         <Text className='text-black font-bold'>{project[selectedProject].projectName}</Text>
       <TouchableIcon iconName={"chevron-right"} handlePress={()=> changeProjekt("plus")}/>
