@@ -18,7 +18,7 @@ import SingleSelectList from "@/components/gui/SingleSelectList";
 import FilterList from "@/components/explore/FilterList";
 import ChapterList from "@/components/explore/ChapterList";
 import { returnQuestions } from "@/hooks/createQuestions";
-import { getItem } from "@/lib/appwriteData";
+import { getItem } from "../../hooks/appwriteData";
 import Toast from "react-native-toast-message";
 
 export default function TabTwoScreen() {

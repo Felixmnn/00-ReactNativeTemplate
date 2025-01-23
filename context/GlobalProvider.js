@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { getProjectTemplates } from '@/lib/appwriteData';
+import { getProjectTemplates } from '../hooks/appwriteData';
 
 // Erstellen des Kontexts
 export const GlobalContext = createContext();

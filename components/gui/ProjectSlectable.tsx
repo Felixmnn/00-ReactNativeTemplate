@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome';
-import { getItemList } from '@/lib/appwriteData';
+import { getItemList } from '../../hooks/appwriteData';
 import CustomButton from './CustomButton';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';

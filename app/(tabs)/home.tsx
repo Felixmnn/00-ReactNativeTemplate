@@ -7,7 +7,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 export default function HomeScreen() {
-  
+  const env = process.env.ENDPOINT;
+  console.log("Env:", env)
   const colorScheme = useColorScheme();
 
   const { state, setState } = useContext(GlobalContext);

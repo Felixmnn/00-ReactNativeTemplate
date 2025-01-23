@@ -38,4 +38,3 @@ yarn-error.*
 app-example
 .env
 lib/appwriteAuth.js
-lib/appwriteData.js
