@@ -1,6 +1,5 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import CustomButton from '../gui/CustomButton'
 import { router } from 'expo-router'
 import TouchableIcon from '../gui/TouchableIcon'
 

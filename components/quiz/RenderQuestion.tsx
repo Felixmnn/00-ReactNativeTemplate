@@ -1,6 +1,5 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
-import CustomButton from '../gui/CustomButton'
 import QuizOption from './QuizOption'
 
 const RenderQuestion = ({question, addAnswer,questionIndex,answers}) => {

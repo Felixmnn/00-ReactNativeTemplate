@@ -1,19 +1,11 @@
-import Modes from "@/components/explore/Modes";
-import QuestionBucket from "@/components/explore/QuestionBucket";
 import YourPorjects from "@/components/explore/YourPorjects";
 import CustomButton from "@/components/gui/CustomButton";
-import ProjectBanner from "@/components/gui/ProjectBanner";
 import { router } from "expo-router";
 import { useState } from "react";
 import { View,Text, FlatList, TouchableOpacity, ScrollView, Alert } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
-import SystemDeutschlands from "../../assets/questions/Einführungsvorlesung Das Politische System Deutschlands.json"
-import SystemAllgemein from "../../assets/questions/Einführungsvorlesung Forschungsdesign in der Politikwissenschaft.json"
-import SystemOderSo from "../../assets/questions/Einführungsvorlesung Vergleichende Politikwissenschaft.json"
 import { GlobalContext } from '@/context/GlobalProvider';
 import { useContext, useEffect } from 'react';
-import AsyncStorage from '@react-native-async-storage/async-storage'
-import { useColorScheme } from '@/hooks/useColorScheme';
 import SingleSelectList from "@/components/gui/SingleSelectList";
 import FilterList from "@/components/explore/FilterList";
 import ChapterList from "@/components/explore/ChapterList";

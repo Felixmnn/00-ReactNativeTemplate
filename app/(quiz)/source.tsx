@@ -1,6 +1,5 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import questions from "../../assets/questions/10Questions.json"
 import { useLocalSearchParams } from 'expo-router';
 
 const source = () => {

@@ -2,7 +2,6 @@ import { View, Text, TouchableOpacity, Modal } from 'react-native'
 import React from 'react'
 import { useState } from 'react';
 import { router } from 'expo-router';
-import { useEffect } from 'react';
 
 
 const ModalExample = ({showModal}) => {

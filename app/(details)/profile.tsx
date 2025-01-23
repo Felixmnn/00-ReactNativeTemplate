@@ -2,7 +2,6 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import PersonalData from '@/components/profile/PersonalData'
 import Seperator from '@/components/profile/Seperator';
-import Icon from 'react-native-vector-icons/FontAwesome';
 import ProfileOptions from '@/components/profile/ProfileOptions';
 
 const profile = () => {

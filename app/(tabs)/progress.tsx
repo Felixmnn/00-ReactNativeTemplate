@@ -1,11 +1,5 @@
 import { View, Text, ScrollView, TouchableOpacity,FlatList, Modal } from 'react-native'
 import React, { useState } from 'react'
-import SystemDeutschlands from "../../assets/questions/Einführungsvorlesung Das Politische System Deutschlands.json"
-import SystemAllgemein from "../../assets/questions/Einführungsvorlesung Forschungsdesign in der Politikwissenschaft.json"
-import SystemOderSo from "../../assets/questions/Einführungsvorlesung Vergleichende Politikwissenschaft.json"
-import CustomButton from '@/components/gui/CustomButton'
-import Icon from 'react-native-vector-icons/FontAwesome';
-import { router } from 'expo-router'
 import { GlobalContext } from '@/context/GlobalProvider';
 import { useContext,useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage'

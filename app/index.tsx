@@ -3,7 +3,6 @@ import React, { useEffect, useState,useContext } from 'react'
 import { router } from 'expo-router'
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { GlobalContext } from '@/context/GlobalProvider';
-import CustomButton from '@/components/gui/CustomButton';
 
 const index = () => {
   const [isLoading , setIsLoading] = useState(true)

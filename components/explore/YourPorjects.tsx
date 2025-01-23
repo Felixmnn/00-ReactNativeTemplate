@@ -1,8 +1,5 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import CustomButton from '../gui/CustomButton'
-import ProjectBanner from '../gui/ProjectBanner'
-import Icon from 'react-native-vector-icons/FontAwesome';
 import TouchableIcon from '../gui/TouchableIcon';
 
 const YourPorjects = ({project,setSelectedProject,selectedProject}) => {

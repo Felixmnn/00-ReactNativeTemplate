@@ -1,8 +1,6 @@
 import { View, Text } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import questions from "../../assets/questions/10Questions.json"
-import Sitzung_5_Foederalismus from "../../assets/questions/Einführungsvorlesung Das Politische System Deutschlands.json"
-import CustomButton from '@/components/gui/CustomButton'
 import RenderQuestion from '@/components/quiz/RenderQuestion'
 import RenderResults from '@/components/quiz/RenderResults'
 import QuestionNavigation from '@/components/quiz/QuestionNavigation'

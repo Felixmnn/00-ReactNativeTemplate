@@ -1,6 +1,5 @@
 import { View, Text, TouchableOpacity, TextInput } from 'react-native'
 import React, { useState } from 'react'
-import questions from "../../assets/questions/10Questions.json"
 import CustomButton from '@/components/gui/CustomButton'
 import Toast from 'react-native-toast-message'
 import { router } from 'expo-router'
