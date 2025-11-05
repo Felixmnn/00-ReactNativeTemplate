@@ -5,7 +5,7 @@ node_modules/
 
 # Expo
 .expo/
-dist/
+#dist/
 web-build/
 expo-env.d.ts
 
@@ -36,3 +36,5 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+.env
+lib/appwriteAuth.js
