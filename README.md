@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# ReactNativeTemplate
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ReactNativeTemplate is exactly what the name suggests: a template project for React Native. This project is designed as a starting point for Expo-based applications and does not include any additional functionality out of the box.
 
-## Get started
+## Purpose
 
-1. Install dependencies
+While the documentation for React Native and Expo, especially in combination with NativeWind, has significantly improved, templates like this can still be helpful for beginners. They allow users to identify small differences in code that might cause their projects to malfunction.
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **React Native Base Project**: Includes a simple two-tab navigation setup.
+- **NativeWind Styling**: Pre-configured and functional NativeWind integration.
+- **EAS Configuration**: Ready-to-use Expo Application Services (EAS) configuration.
 
-   ```bash
-    npx expo start
-   ```
+## Limitations
 
-In the output, you'll find options to open the app in a
+- **Outdated Expo Version**: This template uses Expo version 52, which may not include the latest features.
+- **Simplified Structure**: The project is intentionally minimalistic and lacks advanced configurations.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+To use this template, clone the repository and follow the standard Expo setup instructions. Modify the code as needed to suit your project requirements.
 
 ```bash
-npm run reset-project
+git clone <repository-url>
+cd ReactNativeTemplate
+npm install
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to explore and adapt the template to your needs!
